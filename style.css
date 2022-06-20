@@ -1,0 +1,53 @@
+/*
+- The body selector just center the items in the center.
+*/
+body{
+    background-color: #111;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+}
+
+/*
+- The button selector just changes the background color and
+  the text color.
+*/
+button{
+    margin-bottom: 24px;
+    background-color: #7936c2;
+    color: #ece7e7;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+
+/*
+- The .container selector displays the grid inside a flexbox
+  and it increases the padding and change the shadow around 
+  the box. And adjust the size of the width and height to 
+  600px
+*/
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 10px 4px #888888,
+               -10px -10px 4px #888888;
+    border-radius: 10px;
+    padding: 50px;
+    width: 600px;
+    height: 600px;
+    background-color: #969696;
+}
+
+/*
+- The .squares selector it represents each square we have
+  created in js.
+*/
+.squares{
+    margin: 0;
+    padding: 0;
+    border: 1px solid rgb(12, 12, 12);
+    background: #969696;
+}
